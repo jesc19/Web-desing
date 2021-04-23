@@ -1,0 +1,191 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../images/fondo.jpg");
+}
+
+header{
+    background-color: rgb(3,82,74);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    width: 120px;
+    height: 120px;
+}
+
+#encabezado{
+    color: rgb(246,248,101);
+    margin-left: 15%;
+}
+
+
+
+#home_patitas{
+    color:rgb(246,248,101);
+    text-decoration: none;
+}
+
+#home_patitas:hover{
+    color: white ;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    list-style: none;
+}
+
+li{
+    background-color: rgb(246,248,101);
+    border-radius: 15px;
+    padding: 12px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    background-color:yellowgreen;
+    color:white;
+}
+
+li:hover{
+    background-color:yellowgreen;
+    color:white;
+}
+
+main{
+    width: 80%;
+    margin-top: 15px;
+    margin-left:10%;
+    background-color:rgb(3,82,74);
+    
+    
+}
+
+
+section{
+
+    background-color: yellow;
+    border: 25px solid rgb(3,82,74);
+    padding: 20px;
+    
+
+}
+
+
+article{
+
+background-color: white;
+padding:10px;
+
+}
+
+.seccion1{
+
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    
+}
+
+.seccion2{
+    display:grid; 
+    row-gap: 20px; /* colocar un espcacio entre rows de un grid*/
+    
+    
+}
+
+.subseccionesart2{
+
+    display:flex;
+    column-gap: 10px;   
+
+}
+
+
+.column{
+    flex:50%;
+    
+}
+
+
+
+#subtitle2-1{
+    padding-top: 5px;
+    margin-left: 65%;
+    
+}
+
+#subtitle2-2{
+    margin-left: 68%;
+    padding-top:10px;
+    
+}
+
+img{
+    object-fit: contain;
+    width:20%;
+
+    
+  }
+
+.contenido{
+    display: grid;
+    row-gap: 30px;
+}
+
+
+
+.boton{
+    background-color: rgb(3,82,74);   
+    margin-right: 70%;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding:5px;
+    
+   }
+
+.boton:hover{
+
+    background-color:yellowgreen;
+    color:white;
+}
+
+.parrafo{
+    text-align: justify;
+    padding-top: 40px;;
+    
+}
+
+p{
+    text-align: justify;
+}
+
+h2{
+    padding-bottom: 10px;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(3,82,74);
+    padding:30px;
+    color:white;
+}
+
+#date{
+    text-align: right;
+}
